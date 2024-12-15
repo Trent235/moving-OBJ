@@ -1,0 +1,16 @@
+#container {
+    width: 500px; /* style of the work area */
+    height: 500px; /* can be Adjusted as needed */
+    display: flex;              /*determines the type of box or boxes that are generated for an element*/
+    justify-content: center;        /*Aligns flex items along the main axis of the current line of the flex container*/
+    align-items: center;            /*Aligns flex items along the main axis of the current line of the flex container*/
+    overflow: hidden;               /*overflow-x' and 'overflow-y settings*/
+    position: relative;             /* CSS property sets how an element is positioned*/
+    border: 1px solid black;      /* border visual reference */
+}
+
+#memeImage {
+    position: absolute;             /*determine the final location of positioned*/
+    width: 100px; /* image size wight Adjustable */
+    height: 100px; /* image size wight Adjustable */
+}
