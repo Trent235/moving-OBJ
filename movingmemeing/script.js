@@ -1,7 +1,7 @@
 let interval;             //defining the veariable  
 const image = document.getElementById('memeImage');     //image 
 
-function startMoving(direction) {       //call fuction
+function makeItMove(direction) {       //call fuction
     clearInterval(interval); // Clear any existing interval
     interval = setInterval(() => {
         let left = parseInt(window.getComputedStyle(image).left, 10);
